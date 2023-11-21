@@ -14,6 +14,12 @@ export default class Header extends Component {
         <NavLink to="/login" className="btn btn-warning">
           Login
         </NavLink>
+        <NavLink to="/learn-hook" className="btn btn-warning">
+          Learn Hook
+        </NavLink>
+        <NavLink to="/shoe-shop" className="btn btn-warning">
+          Shoe Shop
+        </NavLink>
       </div>
     );
   }
