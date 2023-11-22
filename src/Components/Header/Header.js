@@ -20,6 +20,9 @@ export default class Header extends Component {
         <NavLink to="/shoe-shop" className="btn btn-warning">
           Shoe Shop
         </NavLink>
+        <NavLink to="/use-effect" className="btn btn-warning">
+          Use Effect
+        </NavLink>
       </div>
     );
   }
