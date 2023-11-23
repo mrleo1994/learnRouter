@@ -11,7 +11,7 @@ export default function UserManagement() {
     let fetchUserList = () => {
         // goi ds ng dung moi nhat tu server
         axios
-            .get("https://643a58ee90cd4ba563f77786.mockapi.io/users")
+            .get("https://65118c99829fa0248e4052b6.mockapi.io/project")
             .then((result) => {
                 setUseArr(result.data);
             })
@@ -21,7 +21,7 @@ export default function UserManagement() {
         fetchUserList();
     }, []);
     let handleDelete = (id) => {
-        let url = `https://643a58ee90cd4ba563f77786.mockapi.io/users/${id}`;
+        let url = `https://65118c99829fa0248e4052b6.mockapi.io/project/${id}`;
         axios
             .delete(url)
             .then((res) => {
