@@ -8,6 +8,7 @@ import LoginPage from "./Page/LoginPage/LoginPage";
 import LearnHook from "./Page/LearHook.js/LearnHook";
 import ShoeShop from "./Page/ShoeShop/ShoeShop";
 import UseEffect from "./Page/UseEffect/UseEffect";
+import UserManagement from "./Page/UserManagement/UserMangaement";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/learn-hook" element={<LearnHook />} />
           <Route path="/shoe-shop" element={<ShoeShop />} />
           <Route path="/use-effect" element={<UseEffect />} />
+          <Route path="/use-management" element={<UserManagement />} />
         </Routes>
       </BrowserRouter>
     </div>
